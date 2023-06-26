@@ -12,5 +12,5 @@ Feature: Test Add and Delete place of google map
 	@DeletePlace
 	Scenario: Test Delete Place
 	    Given User calls "DeletePlaceAPI" with "POST" http request
-	    Then Status code is 400
+	    Then Status code is 200
 	    And "status" in respons body is "OK"
