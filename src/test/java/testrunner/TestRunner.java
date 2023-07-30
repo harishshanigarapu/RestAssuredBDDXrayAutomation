@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue={"stepdef"},
 		dryRun = false,
 		monochrome = true,
-//		tags = "@AddPlace",
+		tags = "@AddPlace",
 		plugin = {"json:target/jsonReports/cucumber-report.json",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 		publish = true
